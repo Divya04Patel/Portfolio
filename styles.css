@@ -9,7 +9,7 @@
 a{
   text-decoration: none ;
   color:#fff;
-  transition:0.3s; 
+  transition:0.3s;
 }
 ul{
   list-style:none;
@@ -20,7 +20,7 @@ img{
 body{
   font-family: 'Lexend', sans-serif;
   font-size:16px;
-  line-height:24px; 
+  line-height:24px;
   background-color:#202020;
 }
 .container{
@@ -53,11 +53,11 @@ body{
   justify-content: space-between;
   align-items: center;
   /* padding-bottom: 2rem; */
-} 
+}
 .logo {
   display: flex;
   align-items: center;
-  position: relative; 
+  position: relative;
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 700;
@@ -66,26 +66,25 @@ body{
 .logo .fa-bolt {
   color: #fed700;
   font-size: 19.5px;
-  position: absolute; 
+  position: absolute;
   top: 60%;
-  left: 100%; 
-  transform: translate(-50%, -50%); 
-  z-index: 1; 
+  left: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
-
 .signature {
-  width: 100px; 
-  height:auto; 
-  margin-right: 10px; 
+  width: 100px;
+  height:auto;
+  margin-right: 10px;
 }
 
 .header ul li:first-child {
-  margin-right: auto; 
-}  
+  margin-right: auto;
+}
 
 .header ul{
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 .header ul li{
   margin: 0 15px;
@@ -96,7 +95,7 @@ body{
 }
 .header ul li a.active{
   color: #fed700;
-} 
+}
 .header ul li a:hover{
   color:#fed700;
 }
@@ -111,7 +110,7 @@ body{
 /*---------------------------HomePage--------------------------*/
 
 .FirstElement{
-   display:flex;
+display:flex;
    justify-content: space-around;
    align-items: center;
    padding-top: 5rem; 
