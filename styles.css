@@ -113,11 +113,11 @@ body{
 display:flex;
 justify-content: space-around;
 align-items: center;
-   padding-top: 5rem; 
-} 
+padding-top: 5rem;
+}
 
 .FirstElement.adjusted-padding {
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 .FirstElement .profile-photo{
