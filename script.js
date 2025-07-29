@@ -13,23 +13,23 @@ $(document).ready(function() {
     });
   
     $(".header ul li a").click(function(e) {
-      e.preventDefault(); 
+      e.preventDefault();
   
       var target = $(this).attr("href");
   
       if ($(target).hasClass("active-section")) {
-        return; 
+        return;
       }
   
       if (target === "#home") {
         $("html, body").animate(
           {
-            scrollTop: 0 
+            scrollTop: 0
           },
           500
         );
       } else {
-        var offset = $(target).offset().top - 40; 
+        var offset = $(target).offset().top - 40;
   
         $("html, body").animate(
           {
@@ -111,4 +111,3 @@ $(document).ready(function() {
   }
   
 
- 
