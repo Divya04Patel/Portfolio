@@ -261,7 +261,7 @@ profile-photo .img{
 }
 .education-content .row.timeline-box{
   flex:0 0 100%;
-  max-width: 100%;  
+  max-width: 100%;
 }
 .education-content .row .timeline{
   /* background-color:#e5e5e5; */
@@ -274,12 +274,12 @@ profile-photo .img{
 .education-content .row .timeline-item{
   position:relative;
   padding-left: 37px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 .education-content .row  .internship .timeline-item{
   position:relative;
   padding-left: 37px;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
 }
 .education-content .row .timeline-item:last-child{
   padding-bottom: 0;
